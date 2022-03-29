@@ -26,6 +26,8 @@ app.use('/api/auth', require('./routes/auth'));
 
 //TODO: CRUD: Eventos
 
+app.use('/api/events', require('./routes/events'));
+
 
 
 // Escuchar peticiones
